@@ -15,7 +15,7 @@ El sistema experto a utilizar es del siguiente repositorio:
 Clonamos el proyecto con el siguiente comando:
 
 ```bash
-git clone git@github.com:JoArDiTo/sistemas-experto-peliculas.git
+git clone git@github.com:JoArDiTo/movies-recommendation-system.git
 ```
 
 Para instalar las dependencias del proyecto, ejecuta el siguiente comando:
