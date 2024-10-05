@@ -1,54 +1,39 @@
-# Astro Starter Kit: Basics
+# SISTEMA DE RECOMENDACIÓN DE PELÍCULAS
 
-```sh
-npm create astro@latest -- --template basics
+
+Este proyecto es la parte visual del desarrollo del sistema experto que recomienda películas. Utiliza las siguientes tecnologías:
+
+- **Astro**: Framework utilizado para el desarrollo.
+- **React**: Para la construcción de la interfaz de usuario.
+- **TypeScript**: Para añadir tipado estático y mejorar la calidad del código.
+
+El sistema experto a utilizar es del siguiente repositorio:
+    https://github.com/JoArDiTo/sistemas-experto-peliculas
+
+## Instalación
+
+Clonamos el proyecto con el siguiente comando:
+
+```bash
+git clone git@github.com:JoArDiTo/sistemas-experto-peliculas.git
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Para instalar las dependencias del proyecto, ejecuta el siguiente comando:
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+npm install
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Ejecución
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Para iniciar la aplicación en modo de desarrollo, utiliza el siguiente comando:
 
-Any static assets, like images, can be placed in the `public/` directory.
+```bash
+npm run dev
+```
 
-## 🧞 Commands
+Esto abrirá la aplicación en tu navegador predeterminado en la dirección `http://localhost:4321`.
 
-All commands are run from the root of the project, from a terminal:
+## Importante:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Se debe tener instalado el repositorio compartido de manera que pueda ser utilizado en este proyecto.
