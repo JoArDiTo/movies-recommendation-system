@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro"
+import { RankValue } from "../components/RankValue"
+---
+
+<Layout title="CALIFICAR SISTEMA DE RECOMENDACIÓN">
+    <div class="flex flex-col items-center justify-center min-h-screen text-white p-4">
+        <img 
+			transition:name="image-logo"
+			class="w-24 md:w-48"
+			src="public/cinemax-logo.png"
+			alt="cinemax"
+		/>
+        <h1 class="text-xl md:text-3xl font-bold mb-6">CALIFIQUE NUESTRO SISTEMA</h1>
+        <RankValue client:visible />
+        <a 
+			class="bg-red-500 hover:bg-red-700 transition hover:scale-110 text-white text-md md:text-xl font-bold py-2 px-6 rounded my-5"
+			href="result"
+			>
+			REGRESAR
+		</a>
+</Layout>

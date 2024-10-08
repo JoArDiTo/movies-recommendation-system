@@ -139,7 +139,7 @@ export const MoviePreferenceForm = () => {
                 </form>
                 <div className='w-full grid place-items-center py-4'>
                     <button 
-                        className='bg-violet-600 text-white text-xl font-semibold py-2 px-20 rounded-lg'
+                        className='bg-violet-600 hover:bg-violet-700 transition hover:scale-110 text-white text-xl font-semibold py-2 px-20 rounded-lg'
                         onClick={handleSubmit}
                     >
                         Buscar
